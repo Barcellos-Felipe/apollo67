@@ -6,8 +6,8 @@ function HeroSection () {
   return (
     <div className="hero-container">
       <img src="./pub-media/img/img-home.jpg" alt="" className="home-img"/>
-      <h1>LOREM IPSUM DOLOR SIT AMET CONSECTETUR.</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sunt, exercitationem, fugit nam magnam iure excepturi molestiae voluptatem debitis neque ipsam.</p>
+      <h1 id="hero-section">SOLUÇÕES DIGITAIS PARA O SEU NEGÓCIO</h1>
+      <p>Quando o assunto é encontrar maneiras de aumentar sua visibilidade no mercado, nós projetamos as melhores estratégias de uma forma divertida e descontraída.</p>
     </div>
   ); 
 }
