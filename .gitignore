@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# bundle
+/.eslintcache
+
 # testing
 /coverage
 
@@ -22,5 +25,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#workspace vscode
+# workspace vscode
 /.vscode
