@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import './Services.css';
 
-function Services () {
+function Services() {
   return (
     <div className="services-container">
       <h1 id="services-section">O QUE OFERECEMOS?</h1>
@@ -11,35 +11,35 @@ function Services () {
       <div className="items-container">
         <div className="square-wrapper">
           <div className="square-item">
-            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img"/>
+            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img" />
             <span className="square_txt">Lorem Ipsum</span>
           </div>
           <div className="square-item">
-            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img"/>
+            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img" />
             <span className="square_txt">Lorem Ipsum</span>
           </div>
           <div className="square-item">
-            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img"/>
+            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img" />
             <span className="square_txt">Lorem Ipsum</span>
           </div>
         </div>
         <div className="square-wrapper">
           <div className="square-item">
-            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img"/>
+            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img" />
             <span className="square_txt">Lorem Ipsum</span>
           </div>
           <div className="square-item">
-            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img"/>
+            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img" />
             <span className="square_txt">Lorem Ipsum</span>
           </div>
           <div className="square-item">
-            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img"/>
+            <img src="./pub-media/img/placeholder-square.png" alt="" className="square-img" />
             <span className="square_txt">Lorem Ipsum</span>
           </div>
         </div>
       </div>
     </div>
-  ); 
+  );
 }
 
 export default Services;

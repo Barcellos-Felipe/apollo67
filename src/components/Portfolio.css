@@ -1,0 +1,65 @@
+.portfolio-container {
+  background: orange;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-container {
+  padding: 12% 0 12% 10%;
+  display: flex;
+}
+
+.video-container {
+  max-width: 400px;
+}
+
+.video-container>video {
+  max-width: 400px;
+  height: auto;
+}
+
+.video-container > p {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+.title-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.title-container > p {
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+  .portfolio-container {
+    padding-bottom: 10%;
+  }
+  
+  .content-container {
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    padding-top: 40%;
+  }
+  .title-container {
+    max-width: 90%;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .video-container {
+    max-width: 350px;
+    align-items: center;
+  }
+  .video-container > video {
+    max-width: 350px;
+    height: auto;
+  }
+
+
+}

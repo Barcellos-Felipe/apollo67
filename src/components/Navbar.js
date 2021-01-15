@@ -46,9 +46,9 @@ function Navbar() {
               </a>
             </li>
             <li className='nav-item'>
-              <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+              <a href='#portfolio-section' className='nav-links' onClick={closeMobileMenu}>
                 Portfólio
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
               <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
