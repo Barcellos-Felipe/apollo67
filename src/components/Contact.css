@@ -1,0 +1,169 @@
+.contact-container {
+  background: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.form-content-container {
+  display: flex;
+}
+/*
+.contact-img {
+  max-width: 100%;
+  height: auto;
+}
+*/
+.contact-form {
+  align-items: center;
+  padding-top: 10%;
+  width: 55%;
+  padding-bottom: 10%;
+}
+
+.contact-form div {
+  padding-bottom: 20px;
+}
+
+.contact-form > h1 {
+  padding: 0 25%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact-form > p {
+  text-align: center;
+  padding: 0.5rem 25% 2rem 25%;
+}
+
+.contact-form button {
+  width: 100%;
+  background-color: orange;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+
+.contact-form button:hover {
+  border-color: orange;
+  background-color: white;
+  color: orange;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0 35%;
+  padding-top: 1%;
+  align-items: center;
+  
+}
+
+.contact-info {
+  background-image: url("/src/src-media/img/contact-img.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+  width: 45%;
+}
+
+/* label-float */
+
+.form-wrapper-2col {
+  display: flex;
+  width: 100%;
+  padding: 0 25% 0 25%;
+}
+
+.form-wrapper-2col .label-float {
+  padding: 20px 0 0 0;
+}
+
+.form-wrapper-2col .label-float input {
+  margin-left: 20px;
+  width: 175px;
+}
+
+.form-wrapper-2col .label-float:first-of-type input{
+  margin-left: 0;
+}
+
+.form-wrapper-2col .label-float label {
+  padding: 0;
+  margin-left: 20px;
+}
+
+.form-wrapper-2col .label-float:first-of-type label{
+  margin-left: 0;
+}
+
+.label-float {
+  position: relative;
+  padding: 20px 25% 0 25%;
+}
+
+.label-float input, .label-float textarea {
+  width: 370px;
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  font-size: 12px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding-bottom: 5px;
+}
+
+.label-float textarea {
+  height: 100px;
+}
+
+.label-float input:focus, .label-float textarea:focus {
+  border-bottom: 2px solid orange;
+}
+
+.label-float input::placeholder, .label-float textarea::placeholder {
+  color: transparent;
+}
+
+.label-float label {
+  font-size: 14px;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  padding: 0 25%;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+.label-float input:required:invalid+label, .label-float textarea:required:invalid+label {
+  color: red;
+}
+
+.label-float input:focus:required:invalid, .label-float textarea:focus:required:invalid {
+  border-bottom: 2px solid red;
+}
+
+.label-float input:required:invalid+label:before, label-float textarea:required:invalid+label:before {
+  content: '*';
+}
+
+.label-float input:focus+label, .label-float input:not(:placeholder-shown)+label, .label-float textarea:focus+label, .label-float textarea:not(:placeholder-shown)+label {
+  font-size: 12px;
+  margin-top: 0;
+  color: orange;
+}

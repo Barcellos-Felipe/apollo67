@@ -51,9 +51,9 @@ function Navbar() {
               </a>
             </li>
             <li className='nav-item'>
-              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+              <a href='#contact-section' className='nav-links-mobile' onClick={closeMobileMenu}>
                 CONTATO
-              </Link>
+              </a>
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>CONTATO</Button>}
