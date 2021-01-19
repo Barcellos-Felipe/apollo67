@@ -49,7 +49,6 @@ function Contact() {
               placeholder=""
               value={name}
               onChange={(e) => setName(e.target.value)}
-              required
             />
             <label>Nome:</label>
           </div>
@@ -60,7 +59,6 @@ function Contact() {
               placeholder=""
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              required
             />
             <label>E-Mail:</label>
           </div>
@@ -72,7 +70,6 @@ function Contact() {
                 placeholder=""
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                required
               />
               <label>Telefone:</label>
             </div>
@@ -83,7 +80,6 @@ function Contact() {
                 placeholder=""
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
-                required
               />
               <label>Cidade / UF: </label>
             </div>
@@ -95,7 +91,6 @@ function Contact() {
               placeholder=""
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              required
             ></textarea>
             <label>Mensagem:</label>
           </div>

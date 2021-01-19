@@ -4,8 +4,8 @@ import './Services.css';
 
 function Services() {
   return (
-    <div className="services-container">
-      <h1 id="services-section">O QUE OFERECEMOS?</h1>
+    <div id="services-section" className="services-container">
+      <h1>O QUE OFERECEMOS?</h1>
       <p>Desde a criação até o resultado final, tratamos cada projeto como algo especial, como um sonho sendo alcançado.</p>
 
       <div className="items-container">
