@@ -80,11 +80,12 @@
 
 .form-wrapper-2col .label-float {
   padding: 20px 0 0 0;
+  width: 70%;
+  overflow: hidden;
 }
 
 .form-wrapper-2col .label-float input {
   margin-left: 20px;
-  width: 175px;
 }
 
 .form-wrapper-2col .label-float:first-of-type input{
@@ -106,7 +107,7 @@
 }
 
 .label-float input, .label-float textarea {
-  width: 370px;
+  width: 100%;
   border: 0;
   border-bottom: 2px solid lightgrey;
   outline: none;
@@ -153,7 +154,7 @@
   border-bottom: 2px solid red;
 }
 
-.label-float input:required:invalid+label:before, label-float textarea:required:invalid+label:before {
+.label-float input:required:invalid+label:before, .label-float textarea:required:invalid+label:before {
   content: '*';
 }
 
@@ -161,6 +162,10 @@
   font-size: 12px;
   margin-top: 0;
   color: orange;
+}
+
+input:invalid, textarea:invalid {
+  box-shadow: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -173,26 +178,45 @@
     width: 100%;
   }
 
+  .contact-form > p {
+    padding-bottom: 3rem;
+  }
+
   .label-float {
     width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .label-float input, .label-float textarea {
     width: 100%;
   }
 
+  .label-float label {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
   .form-wrapper-2col {
     display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .form-wrapper-2col .label-float {
+    width: 100%;
   }
 
   .form-wrapper-2col .label-float input {
     margin-left: 0;
-    width: 175px;
   }
   
   .form-wrapper-2col .label-float label {
-    padding: 0;
     margin-left: 0;
   }
 
+  .form-wrapper-2col .label-float:first-of-type input{
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
 }
